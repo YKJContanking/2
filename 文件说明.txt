@@ -1,0 +1,15 @@
+1.根目录下“main.exe”文件为可执行文件。
+2.根目录下“密码设计及分析报告.pdf”文件为密码算法设计思路及测试文档。
+3.根目录下“源文件”为包含程序源码的文件夹，其中：
+1）main.c为主函数源码，调用其他所有.h文件；
+2）input.h为输入明文的源码；
+3）menu.h为输入明文后修改加密参数的菜单；
+4）encryption.h为加密源码，调用kaisa.h、virginia.h、fangshe.h文件；
+5）kaisa.h为凯撒密码加密源码；
+6）virginia.h为维吉尼亚密码加密源码；
+7）fangshe.h为仿射密码加密源码；
+8）deciption.h为解密源码，调用dkaisa.h、dvirginia.h、dfangshe.h文件；
+9）dkaisa.h为凯撒密码加密源码；
+10）dvirginia.h为维吉尼亚密码加密源码；
+11）dfangshe.h为仿射密码加密源码；
+12）output.h为汇总输出源码。
